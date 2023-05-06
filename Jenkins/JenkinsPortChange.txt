@@ -1,0 +1,4 @@
+how to change default port number of jenkins in aws ubuntu:
+
+1.https://youtu.be/QYZ5Q6IqQ-s (watch this YT video for changing Jenkins default port number)
+2./home/mahesh/Documents/CloudSoft/Jenkins/JenkinsDefaultPortChange.jpeg  (Open this image for step by step process)

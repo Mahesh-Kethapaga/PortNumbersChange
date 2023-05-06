@@ -1,0 +1,3 @@
+How To Change Port Number in Apache in Ubuntu - Ubiq BI.pdf 
+1. follow all steps mentioned in (How To Change Port Number in Apache in Ubuntu - Ubiq BI.pdf) this pdf 
+2. After that open port number u want in AWS EC2 security groups

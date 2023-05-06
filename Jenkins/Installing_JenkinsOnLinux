@@ -1,0 +1,33 @@
+   
+   Installing Jenkins On Amazon Linux Machine
+   
+    1  ls
+    2  pwd
+    3  whoami
+    4  sudo yum update
+    5  sudo yum update -y
+    6  sudo yum install java-17-amazon-corretto.x86_64 
+    7  java -version
+    8  sudo yum update
+    
+    After that go to Jenkins Official Website,copy the repository and key run the commands, for Example see below
+    
+    9  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   10  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+   11  sudo yum update
+   12  sudo yum install jenkins
+   13  sudo systemctl enable jenkins(by default jenkins stoped on linux based distros)
+   14  sudo systemctl status jenkins
+   15  sudo systemctl start jenkins
+   16  sudo systemctl status jenkins
+
+   
+   aftet that in Security groups open TCP IP port 8080, to access jenkins ,go to browser type Ec2Instance IP:8080
+   
+   17  sudo cat /var/lib/jenkins/secrets/initialAdminPassword 
+   
+   after typing above command you the password , copy that passwd and paste in jekins initial page
+   
+   After install the Jenkins 
+ 
+ 

@@ -1,0 +1,12 @@
+  follow this steps to changing the default port number of tomcat
+  
+   15  sudo vi /opt/tomcat/
+   16  cd /opt/tomcat/
+   17  ls
+   18  cd conf/
+   19  ls
+   20  sudo vi server.xml 
+   21  sudo systemctl restart tomcat
+   22  /opt/tomcat/bin/shutdown.sh 
+   23  /opt/tomcat/bin/startup.sh 
+
